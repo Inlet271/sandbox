@@ -4,14 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="robots" content="none" />
     <title>Bad Apple!!テスト</title>
+    <style>
+        .indocumentcss {
+            color:#0f0;
+        }
+    </style>
 </head>
 <body>
     <p>Hello World!</p>
     <p>No Video</p>
-    <p class="setedscript">none</p>
-    <p class="calledscript">none</p>
+    <p class="indocumentscript">none</p>
+    <p class="externalfilescript">none</p>
+    <p style="color:#f00">in element css</p>
+    <p class="indocumentcss">in document css</p>
+    <p class="externalfilecss">external file css</p>
     <script>
-        document.querySelector(".setedscript").innerText="seted script succeed";
+        document.querySelector(".indocumentscript").innerText="in document script succeed";
     </script>
     <script src="novideo.js"></script>
 </body>
