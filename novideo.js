@@ -1,1 +1,1 @@
-document.querySelector(".calledscript").innerText="called script succeed";
+document.querySelector(".externalfilescript").innerText="external file script succeed";
