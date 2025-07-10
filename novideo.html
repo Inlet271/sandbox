@@ -13,17 +13,17 @@
 </head>
 <body>
     <p>Hello World!</p>
-    <p>No Video</p>
-    <p class="indocumentscript">none</p>
-    <p class="externalfilescript">none</p>
-    <p style="color:#f00">in element css</p>
-    <p class="indocumentcss">in document css</p>
-    <p class="externalfilecss">external file css</p>
-    <img href="svgicon.svg" width="320" height="320">
+    <p class="indocumentscript">ドキュメント内のスクリプト無効</p>
+    <p class="externalfilescript">外部スクリプト無効</p>
+    <noscript>noscript</noscript>
+    <p style="color:#f00">要素内css</p>
+    <p class="indocumentcss">ドキュメント内css</p>
+    <p class="externalfilecss">外部ファイル内css</p>
+    <img src="svgicon.svg" width="320" height="320">
     <video class="video" src="oiiaioooooiai.mp4" autoplay muted></video>
     <p>end of content</p>
     <script type="text/javascript">
-        document.querySelector(".indocumentscript").innerText="in document script succeed";
+        document.querySelector(".indocumentscript").innerText="ドキュメント内のスクリプト有効";
     </script>
     <script type="text/javascript" src="novideo.js"></script>
 </body>
