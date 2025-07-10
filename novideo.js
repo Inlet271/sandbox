@@ -1,1 +1,1 @@
-document.querySelector(".externalfilescript").innerText="external file script succeed";
+document.querySelector(".externalfilescript").innerText="外部スクリプト有効";
